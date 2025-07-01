@@ -21,7 +21,7 @@ pipeline {
                 echo "deploy"
             }
         }
-        stage('notification') {
+        stage('post success') {
             steps {
                 echo "notification send"
             }
